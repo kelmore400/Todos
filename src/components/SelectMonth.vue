@@ -1,6 +1,5 @@
 <script setup>
 import { v4 } from '../../node_modules/uuid';
-import SearchBtn from './SearchBtn.vue';
 const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 const current = new Date();
 const currentMonth = current.getMonth();

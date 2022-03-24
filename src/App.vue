@@ -7,9 +7,9 @@ import SelectTask from './components/SelectTask.vue'
 </script>
 
 <template>
-<div class="w-1/4">
-<h1 class="text-2xl font-bold text-gray-900 mb-8 mr-10">Todos App</h1>
-  <SelectTask />
+<div class="ml-10 w-[360px]">
+<h1 class="text-2xl font-bold text-gray-900 mb-8 ml-3 text-center">Todos App</h1>
+  <!-- <SelectTask /> -->
   <Datepicker />
 </div>
 </template>

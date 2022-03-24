@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['Proxima_Nova', 'SF_UI_Semibold', 'Helvetica', ...defaultTheme.fontFamily.sans],
+        'sans': ['Proxima_Nova', 'SF_UI_Semibold', 'Helvetica', 'Source_Sans_Pro', ...defaultTheme.fontFamily.sans],
       },
       dropShadow: {
         'sm': '0 2px 10px rgba(0, 0, 0, 0.05)',
@@ -28,14 +28,5 @@ module.exports = {
         '7xl': '5rem',
       }
     },
-  },
-  variants: {
-    extend: {
-      opacity: ['disabled'],
-      cursor: ['disabled'],
-    },
-  },
-  plugins: [
-    require('@tailwindcss/forms'),
-  ],
+  }
 }
